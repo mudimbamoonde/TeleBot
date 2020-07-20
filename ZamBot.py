@@ -4,10 +4,8 @@ from telebot import types
 import time as tm
 import requests
 import csv
+ TOKEN = 'YOUR_TOKEN'
 
-# TOKEN = '1232927523:AAF_2sTtpiVE817pXvwcVzV34FkfxHwGARI'
-TOKEN = '1090878731:AAGbXJuQF5lwiAnlcQX1k3dYQkaUS5jldg8'
-# TOKEN = '990949802:AAFemy8K5PSdk5O98flrBpHWupcVW9s5VCU'  # MBH
 
 bot = telebot.TeleBot(TOKEN)
 bot.remove_webhook()
